@@ -4,7 +4,7 @@
     "description": "Upload all your needs with our easy to use upload archive!",
     "display": "standalone",
     "orientation": "portrait",
-    "start_url": "/index.html",
+    "start_url": "https://nicohias.github.io/archive/",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
 
