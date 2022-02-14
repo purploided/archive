@@ -1,0 +1,225 @@
+h1 { /* this changes the size & font of the heading */
+    color: #000;
+    font-size: 45px;
+    margin: 0 0 14px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo { /* this style puts the logo of the website in the header */
+    width: 51px; 
+    margin: auto; 
+    position:absolute; 
+    left: 36%;
+}
+
+.imgPreview { /* this style is the image styling */
+    background-position: center; 
+    position: absolute; 
+    margin: auto; 
+    left: 37%; 
+    top: 15%;
+}
+
+.buttonClick {
+    position: absolute;
+}
+
+@media only screen and (max-width: 414px) {
+    h1 {
+        color: #000;
+        font-size: 30px;
+        margin: 0 0 14px 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .logo {
+        width: 30px;
+        left: 5%;
+    }
+    .imgPreview {
+        width: 300px;
+        height: 300px;
+        position:absolute; 
+        margin: auto; 
+        left: 16%; 
+        top: 13%;
+    }
+    .buttonClick {
+        left: 35%;
+        top: 55%;
+        position: absolute;
+    }
+    .border {
+        width: 0px; 
+        height: 0px; 
+        background-position: center; 
+        position: absolute; 
+        margin: auto; 
+        left: 27%; 
+        top: 13%; 
+        z-index: -1;
+    }
+    .UploadItem {
+        width: 0px; 
+        height: 0px; 
+        background-position: center;
+        position: absolute;
+        margin: auto;
+        left: 5%;
+        top: 14%;
+    }
+    .tab {
+        z-index: -1;
+        background-position: center;
+        position: absolute;
+        margin: auto;
+        right: 81%;
+        top: 7%;
+        width: 0px;
+    }
+    .scoreText {
+        font-size: 0px;
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+        margin: auto;
+        left: 27%;
+        bottom: 4%;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    h1 {
+        color: #000;
+        font-size: 60px;
+        margin: 0 0 14px 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    .logo {
+        width: 60px;
+        left: 8%;
+    }
+    .fileInput {
+        right: 20%;
+    }
+    .buttonClick {
+        position: absolute;
+    }
+    .imgPreview {
+        width: 700px;
+        height: 700px;
+        background-position: center; 
+        position: absolute; 
+        margin: auto; 
+        left: 10%; 
+        top: 15%;
+    }
+    .border {
+        width: 0px; 
+        height: 0px; 
+        background-position: center; 
+        position: absolute; 
+        margin: auto; 
+        left: 27%; 
+        top: 13%; 
+        z-index: -1;
+    }
+    .UploadItem {
+        width: 0px; 
+        height: 0px; 
+        background-position: center;
+        position: absolute;
+        margin: auto;
+        left: 5%;
+        top: 14%;
+    }
+    .tab {
+        z-index: -1;
+        background-position: center;
+        position: absolute;
+        margin: auto;
+        right: 81%;
+        top: 7%;
+        width: 0px;
+    }
+    .scoreText {
+        font-size: 0px;
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+        margin: auto;
+        left: 27%;
+        bottom: 4%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    h1 {
+        color: #000;
+        font-size: 60px;
+        font-family: 'Roboto', sans-serif;
+        right: 3%;
+        position:relative;
+    }
+    .logo {
+        width: 60px;
+        left: 29%;
+    }
+    .fileInput {
+        right: 102%;
+        top: 129%;
+        position: absolute; 
+        margin: auto;
+    }
+    .buttonClick {
+        right: 267%;
+        top: 170%;
+        margin: auto;
+    }
+    .imgPreview {
+        width: 700px;
+        height: 700px;
+        background-position: center; 
+        position: absolute; 
+        margin: auto; 
+        left: 28%; 
+        top: 15%;
+    }
+    .border {
+        width: 740px; 
+        height: 740px; 
+        background-position: center; 
+        position: absolute; 
+        margin: auto; 
+        left: 27%; 
+        top: 13%; 
+        z-index: -1;
+    }
+    .UploadItem {
+        width: 125px; 
+        height: 125px; 
+        background-position: center;
+        position: relative;
+        margin: auto;
+        left: -190%;
+        bottom: 4%;
+    }
+    .scoreText {
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+        margin: auto;
+        left: 27%;
+        bottom: 4%;
+    }
+    .tab {
+        z-index: -1;
+        background-position: center;
+        position: absolute;
+        margin: auto;
+        right: 81%;
+        top: -50%;
+        width: 400px;
+    }
+    #sideTab {
+        position: fixed;
+        left: 20%;
+    }
+}
